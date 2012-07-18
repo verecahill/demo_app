@@ -13,6 +13,7 @@ gem 'thin'
 end
 group :development, :test do
 gem 'sqlite3'
+gem 'rspec-rails', '2.10.0'
 end
 
 
