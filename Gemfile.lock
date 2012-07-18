@@ -138,14 +138,14 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  coffee-rails (~> 3.2.1)
+  coffee-rails (~> 3.2.2)
   compass-rails (~> 1.0.3)
   heroku
   jquery-rails
   pg
   rails (= 3.2.6)
-  sass-rails (~> 3.2.3)
+  sass-rails (~> 3.2.5)
   sqlite3
   thin
-  uglifier (>= 1.0.3)
-  zurb-foundation (~> 3.0.1)
+  uglifier (~> 1.2.6)
+  zurb-foundation (~> 3.0.5)
