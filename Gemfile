@@ -7,14 +7,13 @@ gem 'rails', '3.2.6'
 
 gem 'heroku'
 
-
-group :development do
-	gem 'sqlite3'
+group :production do
+gem 'pg'
+gem 'thin'
 end
-
-group :production, :test do
-	gem 'pg'
-end 
+group :development, :test do
+gem 'sqlite3'
+end
 
 
 # Gems used only for assets and not required
